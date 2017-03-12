@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="22dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question Three:"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:paddingLeft="18dp"
+        android:text="- Which seas are in Egypt?"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+
+
+    <CheckBox
+        android:id="@+id/first_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="#fff"
+        android:padding="8dp"
+        android:text="Mediterranean Sea "
+        android:textSize="20sp"
+        android:onClick="onCheckboxClicked" />
+
+
+    <CheckBox
+        android:id="@+id/second_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="#fff"
+        android:padding="8dp"
+        android:text="Black Sea "
+        android:textSize="20sp"
+        android:onClick="onCheckboxClicked" />
+
+    <CheckBox
+        android:id="@+id/third_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="#fff"
+        android:padding="8dp"
+        android:text="Red Sea "
+        android:textSize="20sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/forth_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="#fff"
+        android:padding="8dp"
+        android:text="None "
+        android:textSize="20sp"
+        android:onClick="onCheckboxClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="95dp"
+        android:background="#000"
+        android:padding="8dp"
+        android:text="Next"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:onClick="next"/>
+    </LinearLayout>
+</ScrollView>
